@@ -3,38 +3,74 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		688641A82652993D0078CC3B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688641A72652993D0078CC3B /* Tests_iOS.swift */; };
-		688641B32652993D0078CC3B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688641B22652993D0078CC3B /* Tests_macOS.swift */; };
+		682D8C302653F965006A9A66 /* DropboxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682D8C2F2653F965006A9A66 /* DropboxModel.swift */; };
+		682D8C312653F965006A9A66 /* DropboxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682D8C2F2653F965006A9A66 /* DropboxModel.swift */; };
+		682D8C34265400EB006A9A66 /* SwiftyDropbox in Frameworks */ = {isa = PBXBuildFile; productRef = 682D8C33265400EB006A9A66 /* SwiftyDropbox */; };
+		685D5E1A2656BEE8006E1571 /* SwiftyDropbox in Frameworks */ = {isa = PBXBuildFile; productRef = 685D5E192656BEE8006E1571 /* SwiftyDropbox */; };
+		685D5E1F2656C4F9006E1571 /* DropboxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685D5E1E2656C4F9006E1571 /* DropboxItem.swift */; };
+		685D5E202656C4F9006E1571 /* DropboxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685D5E1E2656C4F9006E1571 /* DropboxItem.swift */; };
+		68674A122664110000B5445E /* FileDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68674A112664110000B5445E /* FileDetails.swift */; };
+		68674A132664110000B5445E /* FileDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68674A112664110000B5445E /* FileDetails.swift */; };
+		68767D4126651C4700D63676 /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68767D4026651C4700D63676 /* SplitView.swift */; };
 		688641B52652993D0078CC3B /* MyFilesExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886418C2652993B0078CC3B /* MyFilesExplorerApp.swift */; };
 		688641B62652993D0078CC3B /* MyFilesExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886418C2652993B0078CC3B /* MyFilesExplorerApp.swift */; };
 		688641B72652993D0078CC3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886418D2652993B0078CC3B /* ContentView.swift */; };
 		688641B82652993D0078CC3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6886418D2652993B0078CC3B /* ContentView.swift */; };
 		688641B92652993D0078CC3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6886418E2652993D0078CC3B /* Assets.xcassets */; };
 		688641BA2652993D0078CC3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6886418E2652993D0078CC3B /* Assets.xcassets */; };
+		68961A9E265E9BFF00F2A126 /* ContentViewBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68961A9D265E9BFF00F2A126 /* ContentViewBody.swift */; };
+		68961A9F265E9BFF00F2A126 /* ContentViewBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68961A9D265E9BFF00F2A126 /* ContentViewBody.swift */; };
+		68A2F79B265DAC4C009F2317 /* FolderEntriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A2F79A265DAC4C009F2317 /* FolderEntriesView.swift */; };
+		68A2F79C265DAC4C009F2317 /* FolderEntriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A2F79A265DAC4C009F2317 /* FolderEntriesView.swift */; };
+		68A2F79E265DADCF009F2317 /* GettingDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A2F79D265DADCF009F2317 /* GettingDataView.swift */; };
+		68A2F79F265DADCF009F2317 /* GettingDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A2F79D265DADCF009F2317 /* GettingDataView.swift */; };
+		68A2F7A1265DAE28009F2317 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A2F7A0265DAE28009F2317 /* ErrorView.swift */; };
+		68A2F7A2265DAE28009F2317 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A2F7A0265DAE28009F2317 /* ErrorView.swift */; };
+		68C5DCB22658053500E48A33 /* DropboxModelError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C5DCB12658053500E48A33 /* DropboxModelError.swift */; };
+		68C5DCB32658053500E48A33 /* DropboxModelError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C5DCB12658053500E48A33 /* DropboxModelError.swift */; };
+		68C5DCB52658078D00E48A33 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C5DCB42658078D00E48A33 /* ViewModel.swift */; };
+		68C5DCB62658078D00E48A33 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C5DCB42658078D00E48A33 /* ViewModel.swift */; };
+		68CC7E912659893000DC9579 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC7E902659893000DC9579 /* Utils.swift */; };
+		68CC7E922659893000DC9579 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC7E902659893000DC9579 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		688641A42652993D0078CC3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 688641872652993B0078CC3B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 688641922652993D0078CC3B;
-			remoteInfo = "MyFilesExplorer (iOS)";
-		};
-		688641AF2652993D0078CC3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 688641872652993B0078CC3B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6886419A2652993D0078CC3B;
-			remoteInfo = "MyFilesExplorer (macOS)";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		682D8C2F2653F965006A9A66 /* DropboxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxModel.swift; sourceTree = "<group>"; };
+		685D5E1E2656C4F9006E1571 /* DropboxItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxItem.swift; sourceTree = "<group>"; };
+		68674A112664110000B5445E /* FileDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDetails.swift; sourceTree = "<group>"; };
+		68767D4026651C4700D63676 /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
+		6885F278266AF16C0058F323 /* Cross-platform-app13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app13.png"; sourceTree = "<group>"; };
+		6885F279266AF16C0058F323 /* Cross-platform-app24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app24.png"; sourceTree = "<group>"; };
+		6885F27A266AF16C0058F323 /* Cross-platform-app19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app19.png"; sourceTree = "<group>"; };
+		6885F27B266AF16C0058F323 /* Cross-platform-app9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app9.png"; sourceTree = "<group>"; };
+		6885F27C266AF16C0058F323 /* Cross-platform-app25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app25.png"; sourceTree = "<group>"; };
+		6885F27D266AF16C0058F323 /* Cross-platform-app21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app21.png"; sourceTree = "<group>"; };
+		6885F27E266AF16C0058F323 /* Cross-platform-app2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app2.png"; sourceTree = "<group>"; };
+		6885F27F266AF16C0058F323 /* Cross-platform-app26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app26.png"; sourceTree = "<group>"; };
+		6885F280266AF16C0058F323 /* Cross-platform-app10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app10.png"; sourceTree = "<group>"; };
+		6885F281266AF16C0058F323 /* Cross-platform-app11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app11.png"; sourceTree = "<group>"; };
+		6885F282266AF16C0058F323 /* Cross-platform-app4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app4.png"; sourceTree = "<group>"; };
+		6885F283266AF16C0058F323 /* Cross-platform-app6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app6.png"; sourceTree = "<group>"; };
+		6885F284266AF16C0058F323 /* Cross-platform-app23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app23.png"; sourceTree = "<group>"; };
+		6885F285266AF16C0058F323 /* Cross-platform-app1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app1.png"; sourceTree = "<group>"; };
+		6885F286266AF16C0058F323 /* Cross-platform-app0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app0.png"; sourceTree = "<group>"; };
+		6885F287266AF16C0058F323 /* Cross-platform-app22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app22.png"; sourceTree = "<group>"; };
+		6885F288266AF16C0058F323 /* Cross-platform-app12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app12.png"; sourceTree = "<group>"; };
+		6885F289266AF16C0058F323 /* Cross-platform-app7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app7.png"; sourceTree = "<group>"; };
+		6885F28A266AF16C0058F323 /* Cross-platform-app8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app8.png"; sourceTree = "<group>"; };
+		6885F28B266AF16C0058F323 /* Cross-platform-app3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app3.png"; sourceTree = "<group>"; };
+		6885F28C266AF16C0058F323 /* Cross-platform-app15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Cross-platform-app15.gif"; sourceTree = "<group>"; };
+		6885F28D266AF16D0058F323 /* Cross-platform-app5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app5.png"; sourceTree = "<group>"; };
+		6885F28E266AF16D0058F323 /* Cross-platform-app17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app17.png"; sourceTree = "<group>"; };
+		6885F28F266AF16D0058F323 /* Cross-platform-app20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app20.png"; sourceTree = "<group>"; };
+		6885F290266AF16D0058F323 /* Cross-platform-app16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app16.png"; sourceTree = "<group>"; };
+		6885F291266AF16D0058F323 /* Cross-platform-app18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app18.png"; sourceTree = "<group>"; };
+		6885F292266AF16D0058F323 /* Cross-platform-app27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app27.png"; sourceTree = "<group>"; };
+		6885F293266AF16D0058F323 /* Cross-platform-app14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross-platform-app14.png"; sourceTree = "<group>"; };
 		6886418C2652993B0078CC3B /* MyFilesExplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFilesExplorerApp.swift; sourceTree = "<group>"; };
 		6886418D2652993B0078CC3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6886418E2652993D0078CC3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,12 +79,14 @@
 		6886419B2652993D0078CC3B /* MyFilesExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFilesExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6886419D2652993D0078CC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6886419E2652993D0078CC3B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		688641A32652993D0078CC3B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		688641A72652993D0078CC3B /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		688641A92652993D0078CC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		688641AE2652993D0078CC3B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		688641B22652993D0078CC3B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		688641B42652993D0078CC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68961A9D265E9BFF00F2A126 /* ContentViewBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewBody.swift; sourceTree = "<group>"; };
+		68A2F79A265DAC4C009F2317 /* FolderEntriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderEntriesView.swift; sourceTree = "<group>"; };
+		68A2F79D265DADCF009F2317 /* GettingDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingDataView.swift; sourceTree = "<group>"; };
+		68A2F7A0265DAE28009F2317 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		68C5DCB12658053500E48A33 /* DropboxModelError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxModelError.swift; sourceTree = "<group>"; };
+		68C5DCB42658078D00E48A33 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		68C64E1E266AECE700B9AE74 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		68CC7E902659893000DC9579 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682D8C34265400EB006A9A66 /* SwiftyDropbox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,44 +102,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		688641A02652993D0078CC3B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		688641AB2652993D0078CC3B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				685D5E1A2656BEE8006E1571 /* SwiftyDropbox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		685D5E182656BEE8006E1571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6885F277266AF1500058F323 /* readme-assets */ = {
+			isa = PBXGroup;
+			children = (
+				6885F286266AF16C0058F323 /* Cross-platform-app0.png */,
+				6885F285266AF16C0058F323 /* Cross-platform-app1.png */,
+				6885F27E266AF16C0058F323 /* Cross-platform-app2.png */,
+				6885F28B266AF16C0058F323 /* Cross-platform-app3.png */,
+				6885F282266AF16C0058F323 /* Cross-platform-app4.png */,
+				6885F28D266AF16D0058F323 /* Cross-platform-app5.png */,
+				6885F283266AF16C0058F323 /* Cross-platform-app6.png */,
+				6885F289266AF16C0058F323 /* Cross-platform-app7.png */,
+				6885F28A266AF16C0058F323 /* Cross-platform-app8.png */,
+				6885F27B266AF16C0058F323 /* Cross-platform-app9.png */,
+				6885F280266AF16C0058F323 /* Cross-platform-app10.png */,
+				6885F281266AF16C0058F323 /* Cross-platform-app11.png */,
+				6885F288266AF16C0058F323 /* Cross-platform-app12.png */,
+				6885F278266AF16C0058F323 /* Cross-platform-app13.png */,
+				6885F293266AF16D0058F323 /* Cross-platform-app14.png */,
+				6885F28C266AF16C0058F323 /* Cross-platform-app15.gif */,
+				6885F290266AF16D0058F323 /* Cross-platform-app16.png */,
+				6885F28E266AF16D0058F323 /* Cross-platform-app17.png */,
+				6885F291266AF16D0058F323 /* Cross-platform-app18.png */,
+				6885F27A266AF16C0058F323 /* Cross-platform-app19.png */,
+				6885F28F266AF16D0058F323 /* Cross-platform-app20.png */,
+				6885F27D266AF16C0058F323 /* Cross-platform-app21.png */,
+				6885F287266AF16C0058F323 /* Cross-platform-app22.png */,
+				6885F284266AF16C0058F323 /* Cross-platform-app23.png */,
+				6885F279266AF16C0058F323 /* Cross-platform-app24.png */,
+				6885F27C266AF16C0058F323 /* Cross-platform-app25.png */,
+				6885F27F266AF16C0058F323 /* Cross-platform-app26.png */,
+				6885F292266AF16D0058F323 /* Cross-platform-app27.png */,
+			);
+			path = "readme-assets";
+			sourceTree = "<group>";
+		};
 		688641862652993B0078CC3B = {
 			isa = PBXGroup;
 			children = (
+				68C64E1E266AECE700B9AE74 /* README.md */,
+				6885F277266AF1500058F323 /* readme-assets */,
 				6886418B2652993B0078CC3B /* Shared */,
 				688641952652993D0078CC3B /* iOS */,
 				6886419C2652993D0078CC3B /* macOS */,
-				688641A62652993D0078CC3B /* Tests iOS */,
-				688641B12652993D0078CC3B /* Tests macOS */,
 				688641942652993D0078CC3B /* Products */,
+				685D5E182656BEE8006E1571 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		6886418B2652993B0078CC3B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				6886418C2652993B0078CC3B /* MyFilesExplorerApp.swift */,
-				6886418D2652993B0078CC3B /* ContentView.swift */,
 				6886418E2652993D0078CC3B /* Assets.xcassets */,
+				68A2F797265DABB3009F2317 /* Model */,
+				68A2F799265DABF1009F2317 /* Util */,
+				68A2F798265DABC8009F2317 /* ViewModel */,
+				68A2F796265DABA2009F2317 /* View */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -110,8 +181,6 @@
 			children = (
 				688641932652993D0078CC3B /* MyFilesExplorer.app */,
 				6886419B2652993D0078CC3B /* MyFilesExplorer.app */,
-				688641A32652993D0078CC3B /* Tests iOS.xctest */,
-				688641AE2652993D0078CC3B /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,26 +198,49 @@
 			children = (
 				6886419D2652993D0078CC3B /* Info.plist */,
 				6886419E2652993D0078CC3B /* macOS.entitlements */,
+				68767D4026651C4700D63676 /* SplitView.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		688641A62652993D0078CC3B /* Tests iOS */ = {
+		68A2F796265DABA2009F2317 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				688641A72652993D0078CC3B /* Tests_iOS.swift */,
-				688641A92652993D0078CC3B /* Info.plist */,
+				6886418D2652993B0078CC3B /* ContentView.swift */,
+				68961A9D265E9BFF00F2A126 /* ContentViewBody.swift */,
+				68A2F7A0265DAE28009F2317 /* ErrorView.swift */,
+				68674A112664110000B5445E /* FileDetails.swift */,
+				68A2F79A265DAC4C009F2317 /* FolderEntriesView.swift */,
+				68A2F79D265DADCF009F2317 /* GettingDataView.swift */,
 			);
-			path = "Tests iOS";
+			path = View;
 			sourceTree = "<group>";
 		};
-		688641B12652993D0078CC3B /* Tests macOS */ = {
+		68A2F797265DABB3009F2317 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				688641B22652993D0078CC3B /* Tests_macOS.swift */,
-				688641B42652993D0078CC3B /* Info.plist */,
+				685D5E1E2656C4F9006E1571 /* DropboxItem.swift */,
+				682D8C2F2653F965006A9A66 /* DropboxModel.swift */,
+				68C5DCB12658053500E48A33 /* DropboxModelError.swift */,
 			);
-			path = "Tests macOS";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		68A2F798265DABC8009F2317 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				68C5DCB42658078D00E48A33 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		68A2F799265DABF1009F2317 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				6886418C2652993B0078CC3B /* MyFilesExplorerApp.swift */,
+				68CC7E902659893000DC9579 /* Utils.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +259,9 @@
 			dependencies = (
 			);
 			name = "MyFilesExplorer (iOS)";
+			packageProductDependencies = (
+				682D8C33265400EB006A9A66 /* SwiftyDropbox */,
+			);
 			productName = "MyFilesExplorer (iOS)";
 			productReference = 688641932652993D0078CC3B /* MyFilesExplorer.app */;
 			productType = "com.apple.product-type.application";
@@ -184,45 +279,12 @@
 			dependencies = (
 			);
 			name = "MyFilesExplorer (macOS)";
+			packageProductDependencies = (
+				685D5E192656BEE8006E1571 /* SwiftyDropbox */,
+			);
 			productName = "MyFilesExplorer (macOS)";
 			productReference = 6886419B2652993D0078CC3B /* MyFilesExplorer.app */;
 			productType = "com.apple.product-type.application";
-		};
-		688641A22652993D0078CC3B /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 688641C32652993D0078CC3B /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				6886419F2652993D0078CC3B /* Sources */,
-				688641A02652993D0078CC3B /* Frameworks */,
-				688641A12652993D0078CC3B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				688641A52652993D0078CC3B /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = 688641A32652993D0078CC3B /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		688641AD2652993D0078CC3B /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 688641C62652993D0078CC3B /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				688641AA2652993D0078CC3B /* Sources */,
-				688641AB2652993D0078CC3B /* Frameworks */,
-				688641AC2652993D0078CC3B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				688641B02652993D0078CC3B /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = 688641AE2652993D0078CC3B /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -239,14 +301,6 @@
 					6886419A2652993D0078CC3B = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					688641A22652993D0078CC3B = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 688641922652993D0078CC3B;
-					};
-					688641AD2652993D0078CC3B = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 6886419A2652993D0078CC3B;
-					};
 				};
 			};
 			buildConfigurationList = 6886418A2652993B0078CC3B /* Build configuration list for PBXProject "MyFilesExplorer" */;
@@ -258,14 +312,15 @@
 				Base,
 			);
 			mainGroup = 688641862652993B0078CC3B;
+			packageReferences = (
+				682D8C32265400EB006A9A66 /* XCRemoteSwiftPackageReference "SwiftyDropbox" */,
+			);
 			productRefGroup = 688641942652993D0078CC3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				688641922652993D0078CC3B /* MyFilesExplorer (iOS) */,
 				6886419A2652993D0078CC3B /* MyFilesExplorer (macOS) */,
-				688641A22652993D0078CC3B /* Tests iOS */,
-				688641AD2652993D0078CC3B /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -287,20 +342,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		688641A12652993D0078CC3B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		688641AC2652993D0078CC3B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -309,7 +350,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				688641B72652993D0078CC3B /* ContentView.swift in Sources */,
+				68A2F79B265DAC4C009F2317 /* FolderEntriesView.swift in Sources */,
+				682D8C302653F965006A9A66 /* DropboxModel.swift in Sources */,
+				68C5DCB52658078D00E48A33 /* ViewModel.swift in Sources */,
+				68A2F79E265DADCF009F2317 /* GettingDataView.swift in Sources */,
+				68CC7E912659893000DC9579 /* Utils.swift in Sources */,
+				685D5E1F2656C4F9006E1571 /* DropboxItem.swift in Sources */,
+				68961A9E265E9BFF00F2A126 /* ContentViewBody.swift in Sources */,
+				68C5DCB22658053500E48A33 /* DropboxModelError.swift in Sources */,
 				688641B52652993D0078CC3B /* MyFilesExplorerApp.swift in Sources */,
+				68674A122664110000B5445E /* FileDetails.swift in Sources */,
+				68A2F7A1265DAE28009F2317 /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,40 +369,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				688641B82652993D0078CC3B /* ContentView.swift in Sources */,
+				68A2F79C265DAC4C009F2317 /* FolderEntriesView.swift in Sources */,
+				682D8C312653F965006A9A66 /* DropboxModel.swift in Sources */,
+				68C5DCB62658078D00E48A33 /* ViewModel.swift in Sources */,
+				68A2F79F265DADCF009F2317 /* GettingDataView.swift in Sources */,
+				68CC7E922659893000DC9579 /* Utils.swift in Sources */,
+				685D5E202656C4F9006E1571 /* DropboxItem.swift in Sources */,
+				68961A9F265E9BFF00F2A126 /* ContentViewBody.swift in Sources */,
+				68C5DCB32658053500E48A33 /* DropboxModelError.swift in Sources */,
 				688641B62652993D0078CC3B /* MyFilesExplorerApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6886419F2652993D0078CC3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				688641A82652993D0078CC3B /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		688641AA2652993D0078CC3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				688641B32652993D0078CC3B /* Tests_macOS.swift in Sources */,
+				68767D4126651C4700D63676 /* SplitView.swift in Sources */,
+				68674A132664110000B5445E /* FileDetails.swift in Sources */,
+				68A2F7A2265DAE28009F2317 /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		688641A52652993D0078CC3B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 688641922652993D0078CC3B /* MyFilesExplorer (iOS) */;
-			targetProxy = 688641A42652993D0078CC3B /* PBXContainerItemProxy */;
-		};
-		688641B02652993D0078CC3B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6886419A2652993D0078CC3B /* MyFilesExplorer (macOS) */;
-			targetProxy = 688641AF2652993D0078CC3B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		688641BB2652993D0078CC3B /* Debug */ = {
@@ -558,95 +591,6 @@
 			};
 			name = Release;
 		};
-		688641C42652993D0078CC3B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R6BE99W3FU;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rarcher.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "MyFilesExplorer (iOS)";
-			};
-			name = Debug;
-		};
-		688641C52652993D0078CC3B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R6BE99W3FU;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rarcher.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "MyFilesExplorer (iOS)";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		688641C72652993D0078CC3B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = R6BE99W3FU;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rarcher.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "MyFilesExplorer (macOS)";
-			};
-			name = Debug;
-		};
-		688641C82652993D0078CC3B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = R6BE99W3FU;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rarcher.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "MyFilesExplorer (macOS)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -677,25 +621,31 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		688641C32652993D0078CC3B /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				688641C42652993D0078CC3B /* Debug */,
-				688641C52652993D0078CC3B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		688641C62652993D0078CC3B /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				688641C72652993D0078CC3B /* Debug */,
-				688641C82652993D0078CC3B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		682D8C32265400EB006A9A66 /* XCRemoteSwiftPackageReference "SwiftyDropbox" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dropbox/SwiftyDropbox.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		682D8C33265400EB006A9A66 /* SwiftyDropbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 682D8C32265400EB006A9A66 /* XCRemoteSwiftPackageReference "SwiftyDropbox" */;
+			productName = SwiftyDropbox;
+		};
+		685D5E192656BEE8006E1571 /* SwiftyDropbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 682D8C32265400EB006A9A66 /* XCRemoteSwiftPackageReference "SwiftyDropbox" */;
+			productName = SwiftyDropbox;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 688641872652993B0078CC3B /* Project object */;
 }
