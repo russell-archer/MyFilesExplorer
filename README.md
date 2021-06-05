@@ -1,20 +1,20 @@
 # Cross platform app (Dropbox MyFilesExplorer)
 
-Creating a cross-platform app with **Xcode 12** and **SwiftUI** that runs on **iOS** and **macOS** clients.
+A demo Dropbox API app created with Xcode 12 and SwiftUI that runs on iOS and macOS clients.
 
 # Contents
 
-[What you'll learn](#What-you'll-learn)
-[Getting started](#Getting-started)
-[Creatingan app on Dropbox](#Creating-an-app-on-Dropbox)
-[Installing the Dropbox SDK](#Installing-the-Dropbox-SDK)
-[Quick test of the Dropbox API](#Quick-test-of-the-Dropbox-API)
-[Data Model](#Data-Model)
-[Displaying Dropbox data in List](#Displaying-Dropbox-data-in-List)
-[Refactoring](#Refactoring)
-[Distinguishing between Files and Folders](#Distinguishing-between-Files-and-Folders)
-[Handling navigation to Files](#Handling-navigation-to-Files)
-[Cross-platform support](#Cross-platform-support)
+- [What you'll learn](#What-you'll-learn)
+- [Getting started](#Getting-started)
+- [Creatingan app on Dropbox](#Creating-an-app-on-Dropbox)
+- [Installing the Dropbox SDK](#Installing-the-Dropbox-SDK)
+- [Quick test of the Dropbox API](#Quick-test-of-the-Dropbox-API)
+- [Data Model](#Data-Model)
+- [Displaying Dropbox data in List](#Displaying-Dropbox-data-in-List)
+- [Refactoring](#Refactoring)
+- [Distinguishing between Files and Folders](#Distinguishing-between-Files-and-Folders)
+- [Handling navigation to Files](#Handling-navigation-to-Files)
+- [Cross-platform support](#Cross-platform-support)
 
 # What you'll learn
 
@@ -64,7 +64,7 @@ The access token allows this demo app to access *your personal* Dropbox account 
 
 > In a commercial app you'd need to use the OAuth2 authentication flow to dynamically retrieve an OAuth access token from Dropbox for any user.
 > 
-> For an example of implementing an OAuth2 authentication flow in SwiftUI see [[OAuth GitHub App).
+> For an example of implementing an OAuth2 authentication flow in SwiftUI see https://github.com/russell-archer/MyGitHub.
 > Refer to https://github.com/dropbox/SwiftyDropbox#configure-your-project for details on how to implement an OAuth authentication flow with SwiftyDropbox.
 
 ![](./readme-assets/Cross-platform-app4.png)
