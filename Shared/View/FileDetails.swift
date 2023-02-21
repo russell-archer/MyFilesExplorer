@@ -18,7 +18,6 @@ struct FileDetails: View {
             Text("\(String(fileDetails.size)) bytes").font(.headline)
         }
         .navigationTitle("File Details")
-//        .navigationBarTitleDisplayMode(.large)
     }
 }
 

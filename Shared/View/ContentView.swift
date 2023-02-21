@@ -12,22 +12,17 @@ struct ContentView: View {
     @StateObject var viewModel = ViewModel()
     var path = ""
     var isRoot: Bool { path == "" }
-
+    
     var body: some View {
         
         if isRoot {
             
-            #if os(iOS)
             NavigationView {
                 ContentViewBody(viewModel: viewModel, path: path)
-            }
-            .navigationViewStyle(StackNavigationViewStyle())
-            #elseif os(macOS)
-            NavigationView {
-                ContentViewBody(viewModel: viewModel, path: path)
+                #if os(macOS)
                     .frame(width: 350)
+                #endif
             }
-            #endif
             
         } else {
             

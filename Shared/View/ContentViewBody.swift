@@ -16,48 +16,28 @@ struct ContentViewBody: View {
     private var navTitle: String { viewModel.hasContent ? (viewModel.path ?? "/ (root)") : "Loading..." }
     
     var body: some View {
+        VStack {
+            if viewModel.hasContent {
+                
+                FolderEntriesView(viewModel: viewModel)
+                
+            } else if viewModel.gettingData {
+
+                GettingDataView()
+                
+            } else if viewModel.hasError {
+                
+                ErrorView(viewModel: viewModel)
+            }
+        }
         #if os(iOS)
-        VStack {
-            if viewModel.hasContent {
-                
-                FolderEntriesView(viewModel: viewModel)
-                
-            } else if viewModel.gettingData {
-
-                GettingDataView()
-                
-            } else if viewModel.hasError {
-                
-                ErrorView(viewModel: viewModel)
-            }
-        }
-        .navigationTitle(navTitle)
         .navigationBarTitleDisplayMode(isRoot ? .large : .inline)
-        .onAppear() {
-            if viewModel.path == nil { viewModel.path = path }
-            try? viewModel.getDropboxContent()
-        }
-        #elseif os(macOS)
-        VStack {
-            if viewModel.hasContent {
-                
-                FolderEntriesView(viewModel: viewModel)
-                
-            } else if viewModel.gettingData {
-
-                GettingDataView()
-                
-            } else if viewModel.hasError {
-                
-                ErrorView(viewModel: viewModel)
-            }
-        }
+        #endif
         .navigationTitle(navTitle)
         .onAppear() {
             if viewModel.path == nil { viewModel.path = path }
             try? viewModel.getDropboxContent()
         }
-        #endif
     }
 }
 

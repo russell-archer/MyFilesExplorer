@@ -253,6 +253,7 @@
 				6886418F2652993D0078CC3B /* Sources */,
 				688641902652993D0078CC3B /* Frameworks */,
 				688641912652993D0078CC3B /* Resources */,
+				68152959266D8A1200DD07FC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -293,7 +294,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					688641922652993D0078CC3B = {
 						CreatedOnToolsVersion = 12.5;
@@ -343,6 +344,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68152959266D8A1200DD07FC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6886418F2652993D0078CC3B /* Sources */ = {
@@ -507,7 +529,7 @@
 				DEVELOPMENT_TEAM = R6BE99W3FU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -515,6 +537,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rarcher.MyFilesExplorer;
 				PRODUCT_NAME = MyFilesExplorer;
 				SDKROOT = iphoneos;
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = MOCK;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -529,7 +552,7 @@
 				DEVELOPMENT_TEAM = R6BE99W3FU;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -549,6 +572,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = R6BE99W3FU;
@@ -563,6 +587,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rarcher.MyFilesExplorer;
 				PRODUCT_NAME = MyFilesExplorer;
 				SDKROOT = macosx;
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = MOCK;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -573,6 +598,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = R6BE99W3FU;
